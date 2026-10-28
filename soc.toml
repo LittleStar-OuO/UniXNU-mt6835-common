@@ -1,0 +1,11 @@
+schema_version = 2
+
+[soc]
+name = "MT6835"
+description = "MediaTek MT6835 (Dimensity 6300 family) shared profile. CPU, GIC, timer, PSCI and UART values were extracted from the Lenovo TB365FC stock firmware; peripheral values remain pending and entries marked REQUIRED must be confirmed before use."
+# The hardware values will come from the stock firmware of the first device (TB365FC) until a vendor kernel source is available.
+source_repository = "local: Lenovo TB365FC stock firmware / stock DTB"
+source_revision = "pending"
+
+[components]
+include = []

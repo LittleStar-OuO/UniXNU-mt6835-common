@@ -1,0 +1,3 @@
+# XNU patches shared by every MT6835 board, applied in line order by the kernel build.
+# Empty until a patch is verified on hardware; keep the file so the ordering in
+# [kernel] patch_series stays stable.
